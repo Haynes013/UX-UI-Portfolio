@@ -21,7 +21,7 @@
   <body>
     <header>
       <div class="logo">
-        <img src="./img/laptop.png" alt="" />
+        <img src="./img/profile.jpeg" alt="" />
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -29,6 +29,9 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About me</a>
           </li>
@@ -50,6 +53,44 @@
         alt="Emoji of Mark holding up the peace sign"
         class="intro__img"
       />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Research</h3>
+          <p>
+            Have an idea for an app? I can make it a reality. User surveys, and
+            design research help to find out what the design of your should be.
+            Once there is a few designs for the app I am able to conducts some
+            user testings to make sure it is user friendly, and all the features
+            are needed.
+          </p>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3>Design</h3>
+          <p>
+            Using the design process I solve problems to create design that
+            users can understand easily and enjoy looking at. I create Lo
+            Fidelity and High Fidelity wireframes in Figma, Sketch, or Adobe ED
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Development</h3>
+          <p>
+            I am able to bring a well tested design to life for websites using
+            HTML/CSS and Javascript, or in app form using React/React Native.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+
+      <a href="#work" class="btn">My Work</a>
     </section>
 
     <!-- About Me -->
@@ -88,13 +129,15 @@
           learning about other departments within the organization.
         </p>
       </div>
-      <img src="./img/peace.png" alt="" class="about-me__img"/>
+      <img src="./img/peace.png" alt="" class="about-me__img" />
     </section>
 
     <!-- My Work -->
     <section class="my-work" id="work">
       <h2 class="section__title section__title--work">My work</h2>
-      <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
 
       <div class="portfolio">
         <!-- Portfolio item 01 -->
@@ -103,42 +146,66 @@
         </a>
 
         <!-- Portfolio item 02 -->
-        <a href="https://inspiring-swanson-3ad689.netlify.app/" class="portfolio__item">
+        <a
+          href="https://inspiring-swanson-3ad689.netlify.app/"
+          class="portfolio__item"
+        >
           <img src="./img/lyfesavr.png" alt="" class="portfolio__img" />
         </a>
 
         <!-- Portfolio item 03 -->
-        <a href="https://heuristic-hermann-d02eac.netlify.app/" class="portfolio__item">
+        <a
+          href="https://heuristic-hermann-d02eac.netlify.app/"
+          class="portfolio__item"
+        >
           <img src="./img/KenzieHomePage.png" alt="" class="portfolio__img" />
         </a>
 
         <!-- Portfolio item 04 -->
-        <a href="https://priceless-wozniak-8a06fc.netlify.app/" class="portfolio__item">
+        <a
+          href="https://priceless-wozniak-8a06fc.netlify.app/"
+          class="portfolio__item"
+        >
           <img src="./img/zenith.png" alt="" class="portfolio__img" />
         </a>
       </div>
-
-      <!-- Footer -->
-
-      <footer>
-        <a href="mailto:mhaynes031395@gmail.com" class="footer__link"
-          >mhaynes031395@gmail.com</a
-        >
-        <ul>
-          <li class="social-list__item">
-            <a class="social-list__link" href="https://codepen.io">a</a>
-          </li>
-          <li class="social-list__item">
-            <a class="social-list__link" href="http://dribbble.com">b</a>
-          </li>
-          <li class="social-list__item">
-            <a class="social-list__link" href="https://twitter.com">c</a>
-          </li>
-          <li class="social-list__item">
-            <a class="social-list__link" href="https://github.com">d</a>
-          </li>
-        </ul>
-      </footer>
     </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <a href="mailto:mhaynes031395@gmail.com" class="footer__link"
+        >mhaynes031395@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/markmywordz3/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="www.linkedin.com/in/mark-haynes-634315157
+            "
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/MarkMyWordz3"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Haynes013"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
