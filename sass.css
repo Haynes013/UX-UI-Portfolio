@@ -10,15 +10,15 @@
   --ff-secondary: "Source Code Pro", monospace;
   --fw-reg: 300;
   --fw-bold: 900;
-  --clr-light: #fff;
-  --clr-dark: #3f3f3f;
-  --clr-accent: #e01663;
+  --clr-light: #272727;
+  --clr-dark: #fff;
+  --clr-accent: #e01631;
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
-  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
-    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+  --bs: 0.25em 0.25em 0.75em rgba(185, 34, 34, 0.295),
+    0.125em 0.125em 0.25em rgba(185, 34, 34, 0.295);
 }
 
 @media (min-width: 800px) {
@@ -384,10 +384,10 @@ header {
 
 
 .my-services {
-  background-color: var(--clr-dark);
+  background-color: rgb(83, 74, 74);
   background-image: url(./img/back2.png) ;
   background-size: cover;
-  color: var(--clr-light);
+  color: var(--clr-dark);
   background-blend-mode: multiply;
   text-align: center;
 }
